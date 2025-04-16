@@ -1,5 +1,14 @@
-import { Events } from 'phaser';
+import mitt from "mitt";
+import Phaser from "phaser";
 
-// Used to emit events between React components and Phaser scenes
-// https://newdocs.phaser.io/docs/3.70.0/Phaser.Events.EventEmitter
-export const EventBus = new Events.EventEmitter();
+// Define an interface or type mapping event names to their payload types
+type ApplicationEvents = {
+  "current-scene-ready": Phaser.Scene;
+  // 'player-died': void; // Example: Event with no payload
+  // 'score-updated': number; // Example: Event with a number payload
+};
+
+// Create a typed emitter instance using the defined event map
+const emitter = mitt<ApplicationEvents>();
+
+export const EventBus = emitter;

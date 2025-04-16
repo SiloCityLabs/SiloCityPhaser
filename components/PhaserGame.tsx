@@ -78,7 +78,7 @@ const PhaserGame = forwardRef<IRefPhaserGame, IProps>(function PhaserGame(
 
     EventBus.on("current-scene-ready", handleSceneReady);
     return () => {
-      EventBus.removeListener("current-scene-ready", handleSceneReady);
+      EventBus.off("current-scene-ready", handleSceneReady);
     };
   }, [currentActiveScene, ref]);
 
