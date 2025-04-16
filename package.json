@@ -1,5 +1,5 @@
 {
-  "name": "silocitypages",
+  "name": "silocityphaser",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -17,6 +17,7 @@
     "bootstrap": "^5.3.3",
     "joi": "^17.13.3",
     "next": "^15.2.4",
+    "phaser": "^3.88.2",
     "pouchdb": "^9.0.0",
     "pouchdb-adapter-idb": "^9.0.0",
     "pouchdb-find": "^9.0.0",

@@ -1,8 +1,8 @@
 {
-  "id": "SiloCityPages",
-  "name": "Silo City Pages",
-  "short_name": "Silo City Pages",
-  "description": "SiloCityPages: A framework by SiloCityLabs leveraging Bootstrap, React, and Next.js for efficient static site development. Deploy seamlessly to GitHub Pages.",
+  "id": "SiloCityPhaser",
+  "name": "Silo City Phaser",
+  "short_name": "Silo City Phaser",
+  "description": "SiloCityPhaser: A framework by SiloCityLabs leveraging Bootstrap, React, PhaserJs and Next.js for efficient static site development. Deploy seamlessly to GitHub Pages.",
   "lang": "en-US",
   "dir": "ltr",
   "theme_color": "#000000",
